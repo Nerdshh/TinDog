@@ -9,6 +9,13 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 h3 {
   font-family: "Montserrat";
   font-size: 1.5rem;
@@ -17,6 +24,10 @@ h3 {
 
 p {
   color: #8f8f8f;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 .container-fluid {
@@ -61,6 +72,21 @@ p {
   font-weight: 300;
 }
 
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
 .title-image {
   transform: rotate(25deg);
   width: 60%;
@@ -68,6 +94,23 @@ p {
 
 #features {
   padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
 }
 
 #title {
