@@ -31,7 +31,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .download-button {
@@ -41,6 +41,10 @@ p {
 .feature-box {
   padding: 5%;
   text-align: center;
+}
+
+.footer-icon {
+  margin: 20px 10px;
 }
 
 .icon {
@@ -88,12 +92,36 @@ p {
 }
 
 .title-image {
+  position: absolute;
+  right: 30%;
   transform: rotate(25deg);
   width: 60%;
 }
 
-#features {
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
   padding: 7% 15%;
+  text-align: center;
+}
+
+#cta h3 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 7% 15% 0;
+  text-align: center;
 }
 
 #press {
@@ -116,4 +144,15 @@ p {
 #title {
   background-color: #ff4c68;
   color: #fff;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
